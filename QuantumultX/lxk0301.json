@@ -1,5 +1,5 @@
 {
-  "name": "lxk0301",
+  "name": "lxk0301_gallery",
   "description": "anranxf整理",
   "task": [
     "2 9 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_change.js, tag=京豆变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
