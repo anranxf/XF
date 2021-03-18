@@ -1,7 +1,42 @@
-# NAME: Emby
-# UPDATE: 2020-12-11
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
+
+# > 流媒体emby-Plus体验服
+#   普拉斯影业 #EMBY公益服
+#   AGA公益服(中国电信可直连观看)
+#   https://emby.plusmedia.site 端口: 443
+#   CF公益服(仅限挂代理观看)
+#   https://emby-cf.plusmedia.site 端口: 443
+#   备用服1: https://emby.xeton.dev 端口: 443
+#   备用服2: https://jellyfin.xeton.dev 端口: 443
+#   备用服3: https://movie.xeton.dev 端口: 443
+#   备用服4: https://servers.xeton.dev 端口: 443
+#   账号：普拉斯影业
+#   密码：plusisbest
+DOMAIN,emby.plusmedia.site,Emby
+DOMAIN,emby-cf.plusmedia.site,Emby
+DOMAIN,emby.xeton.dev,Emby
+DOMAIN,jellyfin.xeton.dev,Emby
+DOMAIN,movie.xeton.dev,Emby
+DOMAIN,servers.xeton.dev,Emby
+
+# > 流媒体emby-Otaku体验服
+#   https://emby.neko.edu.rs:443
+#   http://emby.ok.edu.hk:80
+#   有NSFW内容 用户名: Guest  密碼： 1234
+#   无NSFW内容  用户名: Guest2  密碼： 1234
+DOMAIN,emby.ok.edu.hk,Emby
+DOMAIN,emby.neko.edu.rs,Emby
+
+# > 流媒体emby-老王体验服
+#   地址：https://emby.cerisk.com/
+#   端口：443
+#   用户名: Guest
+DOMAIN,emby.cerisk.com,Emby
+
+# > 流媒体emby-终点站体验服
 DOMAIN-SUFFIX,emby.wtf,Emby
-DOMAIN-SUFFIX,plusmedia.site,Emby
+
+# > 流媒体emby-jmsooo体验服
+DOMAIN-SUFFIX,agahk1.jmsooo.com,Emby
+
+# > 
 DOMAIN-SUFFIX,mickeycloud.com,Emby
