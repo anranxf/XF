@@ -1,0 +1,43 @@
+payload:
+  # 自定义直连  ##########
+  - DOMAIN-KEYWORD,ipv6
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,eset.com
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office.net
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,mozilla.net
+  - DOMAIN-SUFFIX,mozilla.com
+  - DOMAIN-SUFFIX,firefox.com
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,asuscomm.com
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,s-microsoft.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN,*microsoft-com.akamaized.net
+  - DOMAIN,storeedgefd.dsx.mp.microsoft.com
+  - DOMAIN,download-installer.cdn.mozilla.net
+  # BT直连  ##########
+  - DOMAIN-KEYWORD,torrent
+  # Lunzi直连  ##########
+  - DOMAIN-KEYWORD,dafahao
+  - DOMAIN-KEYWORD,minghui
+  - DOMAIN-KEYWORD,dongtaiwang
+  - DOMAIN-KEYWORD,epochtimes
+  - DOMAIN-KEYWORD,ntdtv
+  - DOMAIN-KEYWORD,falundafa
+  - DOMAIN-KEYWORD,wujieliulan
+  - DOMAIN-KEYWORD,zhengjian
+  # 360直连  ##########
+  - DOMAIN-SUFFIX,360.cn
+  - DOMAIN-SUFFIX,360.com
+  - DOMAIN-SUFFIX,so.cn
+  - DOMAIN-SUFFIX,so.com
+  - DOMAIN-SUFFIX,pincong.rocks
+  # 迅雷直连  ##########
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,sandai
+  - DOMAIN-KEYWORD,Thunder
+  - DOMAIN-KEYWORD,XLLiveUD
