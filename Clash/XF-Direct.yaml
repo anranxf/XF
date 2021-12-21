@@ -16,25 +16,27 @@ payload:
   - DOMAIN-SUFFIX,arc.msn.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,assets.msn.com
-  - DOMAIN-SUFFIX,login.live.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,s-microsoft.com
-  - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,cs.dds.microsoft.com
-  - DOMAIN-SUFFIX,activity.windows.com
+  - DOMAIN,assets.msn.com
+  - DOMAIN,login.live.com
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,cs.dds.microsoft.com
+  - DOMAIN,activity.windows.com
+  - DOMAIN,ow1.res.office365.com
+  - DOMAIN,config.edge.skype.com
+  - DOMAIN,edge.activity.windows.com
+  - DOMAIN,vortex.data.microsoft.com
+  - DOMAIN,checkappexec.microsoft.com
   - DOMAIN,*microsoft-com.akamaized.net
-  - DOMAIN-SUFFIX,ow1.res.office365.com
-  - DOMAIN-SUFFIX,config.edge.skype.com
+  - DOMAIN,msedge.api.cdp.microsoft.com
+  - DOMAIN,nav.smartscreen.microsoft.com
+  - DOMAIN,v10.events.data.microsoft.com
+  - DOMAIN,smartscreen-prod.microsoft.com
+  - DOMAIN,settings-win.data.microsoft.com
+  - DOMAIN,query.prod.cms.rt.microsoft.com
   - DOMAIN,storeedgefd.dsx.mp.microsoft.com
-  - DOMAIN-SUFFIX,edge.activity.windows.com
-  - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
-  - DOMAIN-SUFFIX,nav.smartscreen.microsoft.com
-  - DOMAIN-SUFFIX,v10.events.data.microsoft.com
-  - DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
-  - DOMAIN-SUFFIX,settings-win.data.microsoft.com
-  - DOMAIN-SUFFIX,query.prod.cms.rt.microsoft.com
   # BT直连  ##########
   - DOMAIN-KEYWORD,torrent
   # Lunzi直连  ##########
