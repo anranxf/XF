@@ -1,7 +1,8 @@
 payload:
   # 自定义直连  ##########
   - DOMAIN-KEYWORD,ipv6
-  - DOMAIN-SUFFIX,eset.com
+  - DOMAIN-SUFFIX,eset.co
+  - DOMAIN-SUFFI,domp4.cc
   - DOMAIN-SUFFIX,mozilla.net
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,firefox.com
