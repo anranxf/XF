@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,login.live.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,s-microsoft.com
+  - DOMAIN,client.wns.windows.com
   - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN,vortex.data.microsoft.com
   - DOMAIN,checkappexec.microsoft.com
