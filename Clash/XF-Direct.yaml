@@ -32,12 +32,11 @@ payload:
   - DOMAIN-SUFFIX,ow1.res.office365.com
   - DOMAIN-SUFFIX,config.edge.skype.com
   - DOMAIN,self.events.data.microsoft.com
-  - DOMAIN,geo.prod.do.dsp.mp.microsoft.com
   - DOMAIN,storeedgefd.dsx.mp.microsoft.com
   - DOMAIN-SUFFIX,edge.activity.windows.com
   - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
+  - DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
   - DOMAIN-SUFFIX,nav.smartscreen.microsoft.com
-  - DOMAIN,disc501.prod.do.dsp.mp.microsoft.com
   - DOMAIN-SUFFIX,v10.events.data.microsoft.com
   - DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
   - DOMAIN-SUFFIX,settings-win.data.microsoft.com
