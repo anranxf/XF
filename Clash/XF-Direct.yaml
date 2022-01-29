@@ -37,6 +37,7 @@ payload:
   - DOMAIN-SUFFIX,nav.smartscreen.microsoft.com
   - DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
   - DOMAIN-SUFFIX,query.prod.cms.rt.microsoft.com
+  - DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net
   # BT直连  ##########
   - DOMAIN-KEYWORD,torrent
   # Lunzi直连  ##########
