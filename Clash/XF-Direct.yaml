@@ -31,6 +31,7 @@ payload:
   - DOMAIN,*microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,ow1.res.office365.com
   - DOMAIN-SUFFIX,config.edge.skype.com
+  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
   - DOMAIN,storeedgefd.dsx.mp.microsoft.com
   - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
   - DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
