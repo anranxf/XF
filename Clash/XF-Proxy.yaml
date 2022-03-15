@@ -1,0 +1,4 @@
+payload:
+  # 自定义代理  ########## DOMAIN-KEYWORD,DOMAIN-SUFFIX,DOMAIN
+  - DOMAIN,skydrive.wns.windows.com
+  - DOMAIN,github.githubassets.com
