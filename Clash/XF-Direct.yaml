@@ -22,6 +22,7 @@ payload:
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,s-microsoft.com
   - DOMAIN,client.wns.windows.com
+  - DOMAIN,a1952.dspw65.akamai.net
   - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,data.microsoft.com
   - DOMAIN,checkappexec.microsoft.com
