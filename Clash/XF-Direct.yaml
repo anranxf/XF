@@ -29,14 +29,16 @@ payload:
   - DOMAIN,officecdnmac.microsoft.com
   - DOMAIN,checkappexec.microsoft.com
   - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,store.microsoft.com
   - DOMAIN-SUFFIX,cs.dds.microsoft.com
+  - DOMAIN-SUFFIX,dsx.mp.microsoft.com
+  - DOMAIN-SUFFIX,dsp.mp.microsoft.com 
   - DOMAIN-SUFFIX,activity.windows.com
   - DOMAIN,*microsoft-com.akamaized.net
   - DOMAIN-SUFFIX,ow1.res.office365.com
   - DOMAIN-SUFFIX,config.edge.skype.com
   - DOMAIN,waws-prod-bay-045a.cloudapp.net
   - DOMAIN-SUFFIX,delivery.mp.microsoft.com
-  - DOMAIN,storeedgefd.dsx.mp.microsoft.com
   - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
   - DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
   - DOMAIN-SUFFIX,nav.smartscreen.microsoft.com
