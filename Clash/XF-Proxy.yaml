@@ -1,6 +1,3 @@
 payload:
   # 自定义代理  ########## DOMAIN-KEYWORD,DOMAIN-SUFFIX,DOMAIN
-  - DOMAIN,skydrive.wns.windows.com
-  - DOMAIN,github.githubassets.com
-  - DOMAIN-SUFFIX,storage.live.com
-  - DOMAIN-SUFFIX,sn.files.1drv.com
+ - DOMAIN,github.githubassets.com
