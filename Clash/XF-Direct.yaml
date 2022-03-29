@@ -21,7 +21,8 @@ payload:
   - DOMAIN-SUFFIX,login.live.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,s-microsoft.com
-  - DOMAIN,client.wns.windows.com
+  - DOMAIN,client.wns.windows.com 
+  - DOMAIN-SUFFIX,time.windows.com
   - DOMAIN,a1952.dspw65.akamai.net
   - DOMAIN,login.microsoftonline.com
   - DOMAIN-SUFFIX,edge.microsoft.com
