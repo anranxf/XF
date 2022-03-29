@@ -1,51 +1,13 @@
 payload:
   # 自定义直连  ##########
   - DOMAIN-KEYWORD,ipv6
-  - DOMAIN-SUFFIX,eset.co
+  - DOMAIN-SUFFIX,eset.com
   - DOMAIN-SUFFIX,domp4.cc
   - DOMAIN-SUFFIX,mozilla.net
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,asuscomm.com
   - DOMAIN,download-installer.cdn.mozilla.net
-  # MicroSoft直连  ##########
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,msedge.net
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office.net
-  - DOMAIN-SUFFIX,windows.net
-  - DOMAIN-SUFFIX,arc.msn.com
-  - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,azureedge.net
-  - DOMAIN-SUFFIX,assets.msn.com
-  - DOMAIN-SUFFIX,login.live.com
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,s-microsoft.com
-  - DOMAIN,client.wns.windows.com 
-  - DOMAIN-SUFFIX,time.windows.com
-  - DOMAIN,a1952.dspw65.akamai.net
-  - DOMAIN,login.microsoftonline.com
-  - DOMAIN-SUFFIX,edge.microsoft.com
-  - DOMAIN-SUFFIX,data.microsoft.com
-  - DOMAIN,officecdnmac.microsoft.com
-  - DOMAIN,checkappexec.microsoft.com
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,store.microsoft.com
-  - DOMAIN-SUFFIX,cs.dds.microsoft.com
-  - DOMAIN-SUFFIX,dsx.mp.microsoft.com
-  - DOMAIN-SUFFIX,dsp.mp.microsoft.com 
-  - DOMAIN-SUFFIX,activity.windows.com
-  - DOMAIN,*microsoft-com.akamaized.net
-  - DOMAIN-SUFFIX,ow1.res.office365.com
-  - DOMAIN-SUFFIX,config.edge.skype.com
-  - DOMAIN,waws-prod-bay-045a.cloudapp.net
-  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
-  - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
-  - DOMAIN-SUFFIX,prod.do.dsp.mp.microsoft.com
-  - DOMAIN-SUFFIX,nav.smartscreen.microsoft.com
-  - DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
-  - DOMAIN-SUFFIX,query.prod.cms.rt.microsoft.com
-  - DOMAIN-SUFFIX,officecdn-microsoft-com.akamaized.net
   # BT直连  ##########
   - DOMAIN-KEYWORD,torrent
   # Lunzi直连  ##########
