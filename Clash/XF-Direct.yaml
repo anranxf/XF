@@ -7,8 +7,10 @@ payload:
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,asuscomm.com
+  - DOMAIN-SUFFIX,emule-project.com
   - DOMAIN,download-installer.cdn.mozilla.net
-  # BT直连  ##########
+  # BT直连  emule直连 ##########
+  - DOMAIN-KEYWORD,emule
   - DOMAIN-KEYWORD,torrent
   # Lunzi直连  ##########
   - DOMAIN-KEYWORD,dafahao
