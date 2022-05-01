@@ -10,7 +10,7 @@ payload:
   - DOMAIN-SUFFIX,emule-project.com
   - DOMAIN,download-installer.cdn.mozilla.net
   - DOMAIN-SUFFIX,snapcraft.io
-  - DOMAIN-SUFFIX,ubuntu.co
+  - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN,vsmarketplacebadge.apphb.com
  # BT直连  emule直连 ##########
   - DOMAIN-KEYWORD,emule
