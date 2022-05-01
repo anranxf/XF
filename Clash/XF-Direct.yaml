@@ -9,7 +9,7 @@ payload:
   - DOMAIN-SUFFIX,asuscomm.com
   - DOMAIN-SUFFIX,emule-project.com
   - DOMAIN,download-installer.cdn.mozilla.net
-  - DOMAIN-SUFFIX,api.snapcraft.io
+  - DOMAIN-SUFFIX,snapcraft.io
   - DOMAIN-SUFFIX,ubuntu.co
   - DOMAIN,vsmarketplacebadge.apphb.com
  # BT直连  emule直连 ##########
