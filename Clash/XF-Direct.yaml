@@ -3,6 +3,7 @@ payload:
   - DOMAIN-KEYWORD,ipv6
   - DOMAIN-SUFFIX,eset.com
   - DOMAIN-SUFFIX,domp4.cc
+  - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,mozilla.net
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,firefox.com
