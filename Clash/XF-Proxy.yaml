@@ -1,3 +1,5 @@
 payload:
   # 自定义代理  ########## DOMAIN-KEYWORD,DOMAIN-SUFFIX,DOMAIN
+ - DOMAIN-KEYWORD,rarbg
  - DOMAIN,github.githubassets.com
+ - DOMAIN-SUFFIX,rarbgprx.org
