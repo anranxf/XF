@@ -1,5 +1,6 @@
 payload:
-  # 自定义代理  ########## DOMAIN-KEYWORD,DOMAIN-SUFFIX,DOMAIN
+  # 自定义代理  ########## DOMAIN-KEYWORD,DOMAIN-SUFFIX,DOMAIN 
+ - PROCESS-NAME,tor.exe
  - DOMAIN-KEYWORD,rarbg
  - DOMAIN,github.githubassets.com
  - DOMAIN-SUFFIX,rarbgprx.org
