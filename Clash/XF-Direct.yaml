@@ -1,5 +1,10 @@
 payload:
   # 自定义直连  ##########
+  - PROCESS-NAME,aria2c.exe
+  - PROCESS-NAME,emule.exe  
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,BitComet_x64.exe
+  - PROCESS-NAME,DownloadSDKServer.exe
   - DOMAIN-KEYWORD,ipv6
   - DOMAIN-SUFFIX,eset.com
   - DOMAIN-SUFFIX,domp4.cc
