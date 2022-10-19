@@ -6,7 +6,7 @@ payload:
   - PROCESS-NAME,BitComet_x64.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - DOMAIN-KEYWORD,ipv6
-  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,ygdy8
   - DOMAIN-SUFFIX,eset.com
   - DOMAIN-SUFFIX,domp4.cc
   - DOMAIN-SUFFIX,nvidia.com
