@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,snapcraft.io
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,gnome.org
+  - DOMAIN,server.coolhub.top
   - DOMAIN,vsmarketplacebadge.apphb.com
  # BT直连  emule直连 ##########
   - DOMAIN-KEYWORD,emule
