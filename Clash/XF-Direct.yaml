@@ -1,5 +1,6 @@
 payload:
   # 自定义直连  ##########
+  - PROCESS-NAME,aria2c
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,emule.exe  
   - PROCESS-NAME,qbittorrent.exe
