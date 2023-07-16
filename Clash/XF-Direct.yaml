@@ -7,6 +7,7 @@ payload:
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,BitComet_x64.exe
   - PROCESS-NAME,DownloadSDKServer.exe
+  - PROCESS-NAME,MiniThunderPlatform.exe
   - DOMAIN-KEYWORD,ipv6
   - DOMAIN-KEYWORD,ygdy8
   - DOMAIN-KEYWORD,mozilla
