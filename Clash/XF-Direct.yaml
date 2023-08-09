@@ -22,6 +22,7 @@ payload:
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,gnome.org
   - DOMAIN,server.coolhub.top
+  - DOMAIN,secure-appldnld.apple.com
   - DOMAIN,vsmarketplacebadge.apphb.com
  # BT直连  emule直连 ##########
   - DOMAIN-KEYWORD,emule
