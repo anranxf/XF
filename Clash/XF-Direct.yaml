@@ -1,6 +1,5 @@
 payload:
   # 自定义直连  ##########
-  - PROCESS-NAME,aria2c
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,DownloadService
   - PROCESS-NAME,aria2c.exe
