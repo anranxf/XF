@@ -4,8 +4,12 @@ payload:
   - PROCESS-NAME,DownloadService
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,emule.exe
+  - PROCESS-NAME,UWowA.exe
+  - PROCESS-NAME,UWowA-64.exe
+  - PROCESS-NAME,ULauncher.exe
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,BitComet_x64.exe
+  - PROCESS-NAME,ULauncher-64.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
   - DOMAIN-KEYWORD,ipv6
