@@ -1,9 +1,7 @@
 payload:
   # 自定义直连  ##########
-  - PROCESS-NAME,UWow
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,DownloadService
-  - PROCESS-NAME,'World of Warcraft'
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,emule.exe
   - PROCESS-NAME,UWowA.exe
@@ -17,7 +15,6 @@ payload:
   - DOMAIN-KEYWORD,ipv6
   - DOMAIN-KEYWORD,ygdy8
   - DOMAIN-KEYWORD,mozilla
-  - DOMAIN-KEYWORD,Warcraft
   - DOMAIN-SUFFIX,eset.com
   - DOMAIN-SUFFIX,ppwow.cc
   - DOMAIN-SUFFIX,d2mp4.net
