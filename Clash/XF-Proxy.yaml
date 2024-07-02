@@ -1,5 +1,7 @@
 payload:
   # 自定义代理  ########## DOMAIN-KEYWORD,DOMAIN-SUFFIX,DOMAIN 
+ - PROCESS-NAME,tor
+ - PROCESS-NAME,snowflake-client
  - PROCESS-NAME,tor.exe
  - PROCESS-NAME,obfs4proxy.exe
  - DOMAIN-KEYWORD,rarbg
