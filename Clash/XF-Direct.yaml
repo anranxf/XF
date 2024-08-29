@@ -7,6 +7,7 @@ payload:
   - PROCESS-NAME,emule.exe
   - PROCESS-NAME,UWowA.exe
   - PROCESS-NAME,UWowA-64.exe
+  - PROCESS-NAME,zyplayer.exe
   - PROCESS-NAME,ULauncher.exe
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,BitComet_x64.exe
