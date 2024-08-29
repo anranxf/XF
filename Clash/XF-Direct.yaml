@@ -13,6 +13,7 @@ payload:
   - PROCESS-NAME,ULauncher-64.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
+  - DOMAIN-KEYWORD,cctc
   - DOMAIN-KEYWORD,ipv6
   - DOMAIN-KEYWORD,ygdy8
   - DOMAIN-KEYWORD,mozilla
