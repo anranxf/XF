@@ -30,8 +30,6 @@ payload:
   - DOMAIN-SUFFIX,ubuntu.com
   - DOMAIN-SUFFIX,gnome.org
   - DOMAIN,server.coolhub.top
-  - DOMAIN,mirror.ghproxy.com
-  - DOMAIN,gh.api.99988866.xyz
   - DOMAIN,secure-appldnld.apple.com
   - DOMAIN,vsmarketplacebadge.apphb.com
  # BT直连  emule直连 ##########
