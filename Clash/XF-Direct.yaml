@@ -13,6 +13,7 @@ payload:
   - PROCESS-NAME,BitComet_x64.exe
   - PROCESS-NAME,ULauncher-64.exe
   - PROCESS-NAME,M3U8-Downloader.exe
+  - PROCESS-NAME,Office Tool Plus.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
   - DOMAIN-KEYWORD,cctc
