@@ -16,9 +16,6 @@ payload:
   - PROCESS-NAME,Office Tool Plus.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
- # BT直连  emule直连 ##########
-  - DOMAIN-KEYWORD,emule
-  - DOMAIN-KEYWORD,torrent
   # Lunzi直连  ##########
   - DOMAIN-KEYWORD,dafahao
   - DOMAIN-KEYWORD,minghui
