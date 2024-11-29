@@ -16,6 +16,8 @@ payload:
   - PROCESS-NAME,Office Tool Plus.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
+  ##########
+  - DOMAIN,im.cctcltd.com
   # Lunzi直连  ##########
   - DOMAIN-KEYWORD,dafahao
   - DOMAIN-KEYWORD,minghui
