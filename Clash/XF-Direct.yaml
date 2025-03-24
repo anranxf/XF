@@ -5,28 +5,14 @@ payload:
   - PROCESS-NAME,DownloadService
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,emule.exe
-  - PROCESS-NAME,UWowA.exe
-  - PROCESS-NAME,UWowA-64.exe
-  - PROCESS-NAME,zyplayer.exe
-  - PROCESS-NAME,ULauncher.exe
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,BitComet_x64.exe
-  - PROCESS-NAME,ULauncher-64.exe
   - PROCESS-NAME,M3U8-Downloader.exe
   - PROCESS-NAME,Office Tool Plus.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
   ##########
   - DOMAIN,im.cctcltd.com
-  # Lunzi直连  ##########
-  - DOMAIN-KEYWORD,dafahao
-  - DOMAIN-KEYWORD,minghui
-  - DOMAIN-KEYWORD,dongtaiwang
-  - DOMAIN-KEYWORD,epochtimes
-  - DOMAIN-KEYWORD,ntdtv
-  - DOMAIN-KEYWORD,falundafa
-  - DOMAIN-KEYWORD,wujieliulan
-  - DOMAIN-KEYWORD,zhengjian
   # 360直连  ##########
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
