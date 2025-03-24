@@ -1,10 +1,14 @@
 payload:
   # 自定义直连  ##########
+  - PROCESS-NAME,zyfun
+  - PROCESS-NAME,uzVideo
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,DownloadService
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,emule.exe
+  - PROCESS-NAME,zyfun.exe
+  - PROCESS-NAME,uz_video.exe
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,BitComet_x64.exe
   - PROCESS-NAME,M3U8-Downloader.exe
