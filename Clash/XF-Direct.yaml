@@ -1,6 +1,7 @@
 payload:
   # 自定义直连  ##########
   - PROCESS-NAME,zyfun
+  - PROCESS-NAME,zyfun Helper
   - PROCESS-NAME,uzVideo
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,qbittorrent
