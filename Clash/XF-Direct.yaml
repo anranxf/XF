@@ -6,6 +6,7 @@ payload:
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,DownloadService
+  - PROCESS-NAME,M3U8-Downloader Helper
   - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,emule.exe
   - PROCESS-NAME,zyfun.exe
