@@ -8,6 +8,3 @@ payload:
  - PROCESS-NAME,obfs4proxy.exe
  - PROCESS-NAME,conjure-client.exe
  - PROCESS-NAME,snowflake-client.exe
- - DOMAIN-KEYWORD,rarbg
- - DOMAIN,github.githubassets.com
- - DOMAIN-SUFFIX,rarbgprx.org
