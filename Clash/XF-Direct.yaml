@@ -18,7 +18,7 @@ payload:
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
   ##########
-  - DOMAIN,im.cctcltd.com
+  - DOMAIN-SUFFIX,cctcltd.com
   # 360直连  ##########
   - DOMAIN-SUFFIX,360.cn
   - DOMAIN-SUFFIX,360.com
