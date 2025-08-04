@@ -1,19 +1,19 @@
 payload:
   # 自定义直连  ##########
-  - PROCESS-NAME,zyfun
-  - PROCESS-NAME,zyfun Helper
-  - PROCESS-NAME,uzVideo
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,qbittorrent
+  # - PROCESS-NAME,zyfun
+  # - PROCESS-NAME,zyfun Helper
+  # - PROCESS-NAME,uzVideo
+  # - PROCESS-NAME,Thunder
+  # - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,DownloadService
-  - PROCESS-NAME,M3U8-Downloader Helper
-  - PROCESS-NAME,aria2c.exe
-  - PROCESS-NAME,emule.exe
-  - PROCESS-NAME,zyfun.exe
-  - PROCESS-NAME,uz_video.exe
-  - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,BitComet_x64.exe
-  - PROCESS-NAME,M3U8-Downloader.exe
+  # - PROCESS-NAME,M3U8-Downloader Helper
+  # - PROCESS-NAME,aria2c.exe
+  # - PROCESS-NAME,emule.exe
+  # - PROCESS-NAME,zyfun.exe
+  # - PROCESS-NAME,uz_video.exe
+  # - PROCESS-NAME,qbittorrent.exe
+  # - PROCESS-NAME,BitComet_x64.exe
+  # - PROCESS-NAME,M3U8-Downloader.exe
   - PROCESS-NAME,Office Tool Plus.exe
   - PROCESS-NAME,DownloadSDKServer.exe
   - PROCESS-NAME,MiniThunderPlatform.exe
@@ -24,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,360.com
   - DOMAIN-SUFFIX,so.cn
   - DOMAIN-SUFFIX,so.com
-  - DOMAIN-SUFFIX,pincong.rocks
   # 迅雷直连  ##########
   - DOMAIN-KEYWORD,xunlei
   - DOMAIN-KEYWORD,sandai
