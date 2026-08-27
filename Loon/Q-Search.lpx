@@ -34,7 +34,7 @@
 ^https:\/\/duckduckgo\.com\/\?q=ios(\+|%20|\s)([^&]+).+ 307 https://www.qimai.cn/search/index/search/$1
 ^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)ios.+ 307 https://www.qimai.cn/search/index/search/$1
 #     xxx （无指令默认为 Google）
-^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ 307 https://www.google.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?(?:.*&)?q=([^&]+) 307 https://www.google.com/search?q=$1
 
 #>>>>>>>>>>>>>>>>>>>>>>>翻译
 # yd  xxx (有道词典)
