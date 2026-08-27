@@ -13,42 +13,42 @@
 
 #>>>>>>>>>>>>>>>>>>>>>>>搜索
 # bd  xxx (百度搜索)
-^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 307 https://www.baidu.com/s?wd=$1%20-adclear
-^https:\/\/duckduckgo\.com\/\?q=((.(?!bd))+)\+bd.+ 307 https://www.baidu.com/s?wd=$1%20-adclear
+^https:\/\/duckduckgo\.com\/\?q=bd(\+|%20|\s)([^&]+).+ 307 https://www.baidu.com/s?wd=$1%20-adclear
+^https:\/\/duckduckgo\.com\/\?q=((.(?!bd))+)(\+|%20|\s)bd.+ 307 https://www.baidu.com/s?wd=$1%20-adclear
 # wk  xxx (维基搜索)
-^https:\/\/duckduckgo\.com\/\?q=wk\+([^&]+).+ 307 https://zh.wikipedia.org/wiki/$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+wk.+ 307 https://zh.wikipedia.org/wiki/$1
+^https:\/\/duckduckgo\.com\/\?q=wk(\+|%20|\s)([^&]+).+ 307 https://zh.wikipedia.org/wiki/$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)wk.+ 307 https://zh.wikipedia.org/wiki/$1
 # wz  xxx (无追搜索)
-^https:\/\/duckduckgo\.com\/\?q=wz\+([^&]+).+ 307 https://www.wuzhuiso.com/s?q=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+wz.+ 307 https://www.wuzhuiso.com/s?q=$1
+^https:\/\/duckduckgo\.com\/\?q=wz(\+|%20|\s)([^&]+).+ 307 https://www.wuzhuiso.com/s?q=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)wz.+ 307 https://www.wuzhuiso.com/s?q=$1
 # yh  xxx (油猴搜索)
-^https:\/\/duckduckgo\.com\/\?q=yh\+([^&]+).+ 307 https://greasyfork.org/zh-CN/scripts?q=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+yh.+ 307 https://greasyfork.org/zh-CN/scripts?q=$1 
+^https:\/\/duckduckgo\.com\/\?q=yh(\+|%20|\s)([^&]+).+ 307 https://greasyfork.org/zh-CN/scripts?q=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)yh.+ 307 https://greasyfork.org/zh-CN/scripts?q=$1 
 # gi  xxx (Google 图片)
-^https:\/\/duckduckgo\.com\/\?q=gi\+([^&]+).+ 307 https://www.google.com/search?&tbm=isch&q=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+gi.+ 307 https://www.google.com/search?&tbm=isch&q=$1
+^https:\/\/duckduckgo\.com\/\?q=gi(\+|%20|\s)([^&]+).+ 307 https://www.google.com/search?&tbm=isch&q=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)gi.+ 307 https://www.google.com/search?&tbm=isch&q=$1
 # by  xxx (必应)
-^https:\/\/duckduckgo\.com\/\?q=by\+([^&]+).+ 307 https://www.bing.com/search?q=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+by.+ 307 https://www.bing.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=by(\+|%20|\s)([^&]+).+ 307 https://www.bing.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)by.+ 307 https://www.bing.com/search?q=$1
 # ios  xxx (苹果应用搜索)
-^https:\/\/duckduckgo\.com\/\?q=ios\+([^&]+).+ 307 https://www.qimai.cn/search/index/search/$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+ios.+ 307 https://www.qimai.cn/search/index/search/$1
+^https:\/\/duckduckgo\.com\/\?q=ios(\+|%20|\s)([^&]+).+ 307 https://www.qimai.cn/search/index/search/$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)ios.+ 307 https://www.qimai.cn/search/index/search/$1
 #     xxx （无指令默认为 Google）
 ^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ 307 https://www.google.com/search?q=$1
 
 #>>>>>>>>>>>>>>>>>>>>>>>翻译
 # yd  xxx (有道词典)
-^https:\/\/duckduckgo\.com\/\?q=yd\+([^&]+).+ 307 http://dict.youdao.com/search?q=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+yd.+ 307 http://dict.youdao.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=yd(\+|%20|\s)([^&]+).+ 307 http://dict.youdao.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)yd.+ 307 http://dict.youdao.com/search?q=$1
 # trc xxx (Google 译至中)
-^https:\/\/duckduckgo\.com\/\?q=trc\+([^&]+).+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+trc.+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
+^https:\/\/duckduckgo\.com\/\?q=trc(\+|%20|\s)([^&]+).+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)trc.+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
 # tre xxx (Google 译至英)
-^https:\/\/duckduckgo\.com\/\?q=tre\+([^&]+).+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+tre.+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
+^https:\/\/duckduckgo\.com\/\?q=tre(\+|%20|\s)([^&]+).+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)tre.+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
 # trj xxx (Google 译至日)
-^https:\/\/duckduckgo\.com\/\?q=trj\+([^&]+).+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
-^https:\/\/duckduckgo\.com\/\?q=([^+]+)\+trj.+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
+^https:\/\/duckduckgo\.com\/\?q=trj(\+|%20|\s)([^&]+).+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
+^https:\/\/duckduckgo\.com\/\?q=([^+]+)(\+|%20|\s)trj.+ 307 https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1
 
 #>>>>>>>>>>>>>>>>>>>>>>>苹果商店切换
 #源链接爬虫于>>https://www.liangjianghu.com/searchads-appstore-switch
@@ -69,7 +69,6 @@
 ^https:\/\/duckduckgo\.com\/\?q=tr&.+ 307 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
 # sg  (切换至新加坡区)
 ^https:\/\/duckduckgo\.com\/\?q=sg&.+ 307 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=
-
 
 [MitM]
 hostname=duckduckgo.com
