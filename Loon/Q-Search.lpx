@@ -19,6 +19,7 @@
 # by  xxx (必应搜索)
 ^https:\/\/duckduckgo\.com\/\?q=by\+([^&]+).+ 307 https://www.bing.com/search?q=$1
 #   xxx （谷歌搜索）
+^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ 307 https://www.google.com/search?q=$1
 ^https:\/\/duckduckgo\.com\/\?q=(?!(by|bd|wk)\+)([^&]+) 307 https://www.google.com/search?q=$1
 
 #>>>>>>>>>>>>>>>>>>>>>>>苹果商店切换
