@@ -19,12 +19,10 @@
 # by  xxx (必应搜索)
 ^https:\/\/duckduckgo\.com\/\?q=by\+([^&]+).+ 307 https://www.bing.com/search?q=$1
 #   xxx （谷歌搜索）
-^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ 307 https://www.google.com/search?q=$1
-^https:\/\/duckduckgo\.com\/\?q=(?!(by|bd|wk)\+)([^&]+) 307 https://www.google.com/search?q=$1
+#^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ 307 https://www.google.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=(?!(?:by|bd|wk)\+)([^&]+) 307 https://www.google.com/search?q=$1
 
-#>>>>>>>>>>>>>>>>>>>>>>>苹果商店切换
-#源链接爬虫于>>https://www.liangjianghu.com/searchads-appstore-switch
-#Created by ddgksf2013，使用方法：输入区号，搜索即可
+#
 # cn  (切换至中国区)
 ^https:\/\/duckduckgo\.com\/\?q=cn&.+ 307 https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc=
 # hk  (切换至香港区)
