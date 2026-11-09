@@ -4,38 +4,36 @@
 #!author=XF🅥
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/multisearch.png
 
-
 [URL Rewrite]
+# > 搜索
+# gh  GitHub
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+# wk  维基中文
+^https:\/\/duckduckgo.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
+# by  必应
+^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ https://cn.bing.com/search?q=$1 302
+# bd  百度
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
 
-#>>>>>>>>>>>>>>>>>>>>>>>搜索
-# bd   (百度搜索)
-^https:\/\/duckduckgo\.com\/\?q=bd(\+|%20)([^&]+).+ https://www.baidu.com/s?wd=$2 302
-# wk   (维基搜索)
-^https:\/\/duckduckgo\.com\/\?q=wk(\+|%20)([^&]+).+ https://zh.wikipedia.org/wiki/$2 302
-# by   (必应搜索)
-^https:\/\/duckduckgo\.com\/\?q=by(\+|%20)([^&]+).+ http://www.bing.com/search?q=$2 302
 
 # > App Store 区域切换
-# cn  (切换至中国区)
+# cn  国区
 ^https:\/\/duckduckgo.com\/\?q=cn&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc=$1 302
-# hk  (切换至香港区)
-^https:\/\/duckduckgo.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc=$1 302
-# tw  (切换至台湾区)
-^https:\/\/duckduckgo.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc=$1 302
-# us  (切换至美国区)
+# us  美区
 ^https:\/\/duckduckgo.com\/\?q=us&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc=$1 302
-# jp  (切换至日本区)
+# hk  港区
+^https:\/\/duckduckgo.com\/\?q=hk&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143463&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=hk&urlDesc=$1 302
+# tw  台湾
+^https:\/\/duckduckgo.com\/\?q=tw&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143470&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tw&urlDesc=$1 302
+# jp  日本
 ^https:\/\/duckduckgo.com\/\?q=jp&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc=$1 302
-# kr  (切换至韩国区)
+# kr  韩国
 ^https:\/\/duckduckgo.com\/\?q=kr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143466&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=kr&urlDesc=$1 302
-# tr  (切换至土耳其区)
+# tr  土耳其
 ^https:\/\/duckduckgo.com\/\?q=tr&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc=$1 302
-# sg  (切换至新加坡区)
-^https:\/\/duckduckgo.com\/\?q=sg&.+ https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143464&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=sg&urlDesc=$1 302
 
-# 默认 （谷歌搜索）
-^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+# > 默认无指令搜索：Google
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
 
 [MITM]
-
 hostname = %APPEND% duckduckgo.com
